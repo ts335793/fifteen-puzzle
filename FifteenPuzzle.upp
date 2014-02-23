@@ -1,0 +1,19 @@
+uses
+	CtrlLib;
+
+file
+	Board.h,
+	Board.cpp,
+	PuzzleBackground.iml,
+	Controller.h,
+	Controller.cpp,
+	MainWindow.h,
+	MainWindow.cpp,
+	GameState.h,
+	GameState.cpp,
+	main.cpp,
+	FifteenPuzzle.lay;
+
+mainconfig
+	"" = "GUI SSE2";
+

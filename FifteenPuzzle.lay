@@ -1,0 +1,8 @@
+LAYOUT(MainWindowLayout, 556, 412)
+	ITEM(Board, board, HSizePosZ(20, 183).VSizePosZ(20, 21))
+	ITEM(Button, showSolution, SetLabel(t_("Show Solution")).RightPosZ(20, 140).TopPosZ(72, 20))
+	ITEM(Button, newGame, SetLabel(t_("New Game")).RightPosZ(20, 140).TopPosZ(100, 20))
+	ITEM(Button, help, SetLabel(t_("Help")).RightPosZ(20, 140).TopPosZ(128, 20))
+	ITEM(Label, numberOfMoves, SetLabel(t_("Number of moves: 0")).SetFont(StdFontZ(14).Bold()).RightPosZ(20, 140).TopPosZ(368, 23))
+END_LAYOUT
+
